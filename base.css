@@ -20,12 +20,17 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(245, 116, 116);
     padding: 10px 20px 0px;
+    color: white;
+    border: solid 5px white;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: white;
     min-height: 150px;
+    display: flex;
+    align-items: center;
+    border: solid 5px rgb(255, 71, 71);
 }
 .content {
     background-color: white;
@@ -33,6 +38,11 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(255, 52, 52);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 150px;
+    text-align: center;
 }
