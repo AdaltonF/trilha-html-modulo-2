@@ -20,13 +20,13 @@
                         <td><a href="index.html">Home</a></td>
                     </tr>
                     <tr>
-                        <td><a href="sobre.html">Sobre nós</a>↲</td>
+                        <td><a href="sobre.html">Sobre nós</a></td>
                     </tr>
                     <tr>
                         <td><a href="atendimento.html">Atendimento</a></td>
                     </tr>
                     <tr>
-                        <td><a href="contato.html">Contato</a></td>
+                        <td><a href="contato.html">Contato</a>↲</td>
                     </tr>
                 </tbody>
             </table>
@@ -41,23 +41,33 @@
             </div>
 
             <div class="content">
-                <header>
-                    <h1>Contato</h1>
-                </header>
+                <h2>Entre em Contato</h2>
 
-                <section>
-                    <h2>Missão</h2>
-                    <p>Nossa missão é ser líderes em cuidados cardíacos, promovendo a saúde do coração e a qualidade de
-                        vida. Estamos comprometidos em fornecer serviços excepcionais, desde a <b>prevenção até o
-                            tratamento avançado</b>, para garantir que nossos pacientes alcancem e mantenham uma vida
-                        plena e saudável.</p>
-                </section>
+                <p>Estamos aqui para atender às suas necessidades de saúde cardíaca. Se você tiver alguma pergunta,
+                    deseja marcar uma consulta ou obter mais informações, entre em contato conosco pelos seguintes
+                    meios:</p>
+
+                <h3>Informações de Contato</h3>
+
+                <p><b>Endereço:</b> Rua Cardiologista, 123 - Bairro Saúde, Cidade Feliz</p>
+                <p><b>Telefone:</b> (XX) 1234-5678</p>
+                <p><b>Email:</b> contato@cardiolife.com</p>
+
                 <hr>
-                <footer>
-                    <p>Agradecemos por escolher a <i>Cardiolife</i> como seu parceiro na jornada rumo a um coração
-                        saudável. Estamos aqui para apoiá-lo em cada passo, colocando sua saúde cardíaca em primeiro
-                        lugar.</p>
-                </footer>
+
+                <p>Se preferir, preencha o formulário abaixo, e entraremos em contato o mais breve possível:</p>
+                <form onreset="alert('Obrigado! Mensagem enviada com sucesso!')">
+                    <label for="nome"><b>Nome:</b></label><br>
+                    <input type="text" id="nome" name="nome" required><br>
+
+                    <label for="email"><b>Email:</b></label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="mensagem"><b>Mensagem:</b></label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+                    <button type="reset">Enviar Mensagem</button>
+                </form>
 
             </div>
 
