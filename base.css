@@ -46,3 +46,9 @@ body {
     min-height: 150px;
     text-align: center;
 }
+
+table{
+    border: #f1f1f1 dashed 2px;
+    min-width: 15%;
+    display: flex;
+}
