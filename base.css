@@ -51,5 +51,11 @@ body {
 table{
     border: #f1f1f1 dashed 2px;
     min-width: 15%;
-    display: flex;
+}
+
+.tabela, .tabela th, .tabela tr, .tabela td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 15px;
+    
 }
