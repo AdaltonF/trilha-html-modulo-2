@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template - Utilizar como modelo</title>
+    <title>Contato - Clínica Cardiolife</title>
     <link rel="stylesheet" href="base.css">
 </head>
 
@@ -41,6 +41,10 @@
             </div>
 
             <div class="content">
+                <h2>Endereço</h2>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250000.3105549905!2d-52.6601686664062!3d-23.21066630575903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435211ceb809%3A0xe957fd9e9694087d!2sCardiolife%20-%20Cl%C3%ADnica%20De%20Cardiologia!5e0!3m2!1spt-BR!2sbr!4v1705445183195!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 <h2>Entre em Contato</h2>
 
                 <p>Estamos aqui para atender às suas necessidades de saúde cardíaca. Se você tiver alguma pergunta,
@@ -49,24 +53,32 @@
 
                 <h3>Informações de Contato</h3>
 
-                <p><b>Endereço:</b> Rua Cardiologista, 123 - Bairro Saúde, Cidade Feliz</p>
+                <p><b>Endereço:</b> R. Basiléia, 80 - Bela Suiça, Londrina - PR, 86050-220</p>
                 <p><b>Telefone:</b> (XX) 1234-5678</p>
+                <p><b>Whatsapp:</b> (XX) 1234-5678</p>
                 <p><b>Email:</b> contato@cardiolife.com</p>
 
                 <hr>
 
+                <h3>Envie-nos uma mensagem</h3>
+
                 <p>Se preferir, preencha o formulário abaixo, e entraremos em contato o mais breve possível:</p>
-                <form onreset="alert('Obrigado! Mensagem enviada com sucesso!')">
+                <form onsubmit="alert('Obrigado! Mensagem enviada com sucesso!')">
                     <label for="nome"><b>Nome:</b></label><br>
                     <input type="text" id="nome" name="nome" required><br>
 
                     <label for="email"><b>Email:</b></label><br>
                     <input type="email" id="email" name="email" required><br>
 
+                    <label for="assunto"><b>Assunto:</b></label><br>
+                    <input type="text" id="assunto" name="assunto" required><br>
+
+
                     <label for="mensagem"><b>Mensagem:</b></label><br>
                     <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
 
-                    <button type="reset">Enviar Mensagem</button>
+                    <button type="reset">Limpar Formulário</button>
+                    <button type="submit">Enviar Mensagem</button>
                 </form>
 
             </div>
